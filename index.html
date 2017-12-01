@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="header-bar">
+
+  <img src="/assets/logo.png" height="70px">
+  <h2>About my photographic explorations...</h2>
+</div>
+
+
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+		<hr/>
+		<br/>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <p/>
+      </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+# Site settings
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-paginate-v2
