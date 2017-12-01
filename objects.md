@@ -4,7 +4,7 @@ layout: gallery
 title: Objects
 description: my very best, so far ;)
 
-permalink: /galleries/objects/
+permalink: /objects/
 
 images:
   - big: /assets/galleries/portfolio/4.jpg

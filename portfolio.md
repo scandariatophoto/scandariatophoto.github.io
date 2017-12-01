@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gallery
 
 title: Portfolio
 description: my very best, so far ;)

@@ -4,7 +4,7 @@ layout: gallery
 title: Places
 description: my very best, so far ;)
 
-permalink: /galleries/places/
+permalink: /places/
 
 images:
   - big: /assets/galleries/portfolio/4.jpg

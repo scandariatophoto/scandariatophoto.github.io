@@ -4,7 +4,7 @@ layout: gallery
 title: People
 description: my very best, so far ;)
 
-permalink: /galleries/people/
+permalink: /people/
 
 images:
   - big: /assets/galleries/portfolio/4.jpg
