@@ -13,10 +13,12 @@ permalink: /about/
 .left {
   float:left;
   width:70%;/*The width is 20%, by default*/
+  padding-top: 10px;
 }
 .right {
   float:right;
-  width:20%;/*The width is 20%, by default*/
+  width:25%;/*The width is 20%, by default*/
+  padding-top: 10px;
 }
 
 /*Use a media query to add a break point at 800px:*/
