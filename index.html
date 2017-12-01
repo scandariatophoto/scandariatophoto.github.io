@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<div class="header-bar">
-  <img src="/assets/logo.png" style="max-width:60%;height:auto;">
-  <h2>All about my photographic explorations...</h2>
+<div style="text-align: center;">
+  <img src="/assets/logo.png" style="width: 400px; max-width: 70%; height:auto;">
+  <h3>My photographic blog</h3>
 </div>
 
+<br/>
+<br/>
 <br/>
 
 <ul class="post-list">
@@ -15,7 +17,7 @@ layout: default
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
         <p>{{ post.description }}</p>
-		<br/><br/>
+		<br/>
       </li>
     {% endfor %}
 </ul>
