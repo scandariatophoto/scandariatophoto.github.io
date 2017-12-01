@@ -49,7 +49,7 @@ display: line;
 }
 
 .site-nav a {
-	color: white;
+	color: $grey-color-light;
     &:hover {
         color: $theme-color;
 		text-decoration: none;
