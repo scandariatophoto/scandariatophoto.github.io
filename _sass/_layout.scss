@@ -70,8 +70,8 @@ margin-left: 10px;
  * Site footer  **********************************************************
  */
 .site-footer {
-border-top: 1px solid $grey-color-dark;
 font-size: 10px;
+text-align: right;
 background-color: $grey-color-dark;
 padding: 2px;
 color: #aaa;
@@ -80,6 +80,7 @@ left:0px;
 bottom:0px;
 height:25px;
 width:100%;
+padding-top: 6px;
 }
 /**
  * Pagination   **********************************************************

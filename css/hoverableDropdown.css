@@ -2,7 +2,7 @@
 .dropbtn {
     background-color: #222;
 	margin-left: 10px;
-    color: #ddd; 
+    color: #bbb; 
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -17,9 +17,8 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ddd;
+    background-color: #bbb;
 	color: #222;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     min-width: 100px;
     z-index: 1;
 }
@@ -38,7 +37,7 @@
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
 	background-color: #222;
-	color: #ddd;
+	color: #bbb;
 }
 
 /* Show the dropdown menu on hover */
