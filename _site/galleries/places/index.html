@@ -42,7 +42,7 @@
 		
 		<div class="dropdown">
 		  <button class="dropbtn">galleries</button><i class="fa fa-caret-down"></i>
-		  <div class="dropdown-content" id="menuBox">
+		  <div class="dropdown-content">
 			<a href="/galleries/people">people</a>
 			<a href="/galleries/objects">objects</a>
 			<a href="/galleries/places">places</a>
@@ -56,7 +56,19 @@
 
   </div>
  
-
+<script>
+	$('.dropbtn').on('click', function () {
+					
+	  if ($('.dropdown-content').css('display') == 'none') {
+	    // your menu is closed, so open it
+		$('.dropdown-content').css('display','block');
+	  } else {
+	    // your menu is opened, so close it
+	    $('.dropdown-content').css('display','none');
+	  }
+	});
+</script>
+	
 </header>
 
 
