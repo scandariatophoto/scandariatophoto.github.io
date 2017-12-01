@@ -23,6 +23,7 @@ text-decoration: none;
 color: $theme-color;
     }
 }
+
 .site-nav {
 float: right;
 line-height: $nav-height;
@@ -33,20 +34,7 @@ line-height: $base-line-height;
 margin-left: 10px;
         }
     }
-@include media-query($on-palm) {
-position: fixed;
-top: 0px;
-right: 10px;
-text-align: right;
-&:hover .trigger {
-display: block;
-padding-bottom: 5px;
-        }
-.page-link {
-display: line;
-        }
-    }
-}
+
 
 .site-nav a {
 	color: $grey-color-light;
