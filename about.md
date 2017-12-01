@@ -4,30 +4,39 @@ title: about
 permalink: /about/
 ---
 
+<style>
+* {
+  box-sizing: border-box;
+}
+.left {
+  float:left;
+  width:70%;/*The width is 20%, by default*/
+}
+.right {
+  float:right;
+  width:20%;/*The width is 20%, by default*/
+}
+
+/*Use a media query to add a break point at 800px:*/
+@media (max-width:800px) {
+  .left, .main, .right {
+    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}
+</style>
+
 <br />
 
-<table>
-	<tr>
-		<td style="vertical-align: top; padding-right: 30px">
 
+<div class="right">
+<img src="/assets/me.jpg" width="100%"/>
+</div>
+
+<div class="left">
 <h1>Hello!</h1>
 
 <br />
 <p>
 I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
 </p>
-
-<br/>
-<span class="contacticon center">
-	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://500px.com/scandariato" target="_blank"><i class="fa fa-500px"></i></a>
-</span>
-
-		</td>
-		<td style="vertical-align: top">
-
-<img src="/assets/me.jpg" width="300px"/>
-
-		</td>
-	</tr>
-</table>
+</div>
