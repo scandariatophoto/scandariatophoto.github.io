@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gallery
 
 title: Objects
 description: my very best, so far ;)

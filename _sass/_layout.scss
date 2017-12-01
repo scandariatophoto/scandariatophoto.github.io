@@ -146,6 +146,8 @@ line-height: 1;
 @include media-query($on-laptop) {
 font-size: 36px;
     }
+color: $grey-color-light;
+font-family: 'Pacifico';
 }
 .post-content {
 h2 {
@@ -171,18 +173,13 @@ font-size: 18px;
 font-size: $small-font-size;
 color: $grey-color;
 margin-bottom: 0px; 
+padding-top: 15px;
+}
+.post-description {
+padding-top: 15px;
+color: $grey-color-light;
 }
 .post-link {
 display: block;
 font-size: 42px;
-}
-
-/** Poem formatting ********************************************/
-.poem-title {
-font-size: 24px;
-letter-spacing: -1px;
-line-height: 1;
-@include media-query($on-laptop) {
-font-size: 16px;
-    }
 }

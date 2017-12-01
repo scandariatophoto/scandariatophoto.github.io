@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gallery
 
 title: People
 description: my very best, so far ;)
