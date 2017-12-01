@@ -3,20 +3,19 @@ layout: default
 ---
 
 <div class="header-bar">
-  <img src="/assets/logo.png" style="max-width:70%;height:auto;">
+  <img src="/assets/logo.png" style="max-width:50%;height:auto;">
   <h2>All about my photographic explorations...</h2>
 </div>
 
+<br/>
 
 <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-		<hr/>
-		<br/>
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
         <p>{{ post.description }}</p>
-        <p/>
+		<br/><br/>
       </li>
     {% endfor %}
 </ul>
