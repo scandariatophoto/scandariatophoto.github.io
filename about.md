@@ -27,18 +27,12 @@ permalink: /about/
 }
 </style>
 
-<br />
-
-
 <div class="right">
 <img src="/assets/me.jpg" width="100%"/>
 </div>
 
 <div class="left">
-<h1>Hello!</h1>
-
-<br />
 <p>
-I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
+Hi! I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
 </p>
 </div>
