@@ -1,0 +1,11 @@
+---
+layout: post
+title:  Better than nothing
+date:   2017-12-01
+---
+
+For my birthday, I got my very first lighting kit (flash + wireless trigger + light stand + 3-in-1 umbrella). As soon as I put the kit together, I tested it out with a very special model (my father). The seventh click of my camera produced the picture below. It's a case of instant love with lighting! So much to learn now...
+
+<a href="/assets/posts/2017-12-01/20171122-DSC_0074-Edit.jpg" data-fancybox="images">
+	<img src="/assets/posts/2017-12-01/20171122-DSC_0074-Edit.jpg" alt="" width="100%"/>
+</a>
