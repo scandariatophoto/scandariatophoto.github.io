@@ -27,6 +27,7 @@ images:
     small: /assets/galleries/portfolio/12small.jpg
 ---
 
+
 <div id="gallery">
 {% for image in page.images %}
    <a data-fancybox="slides" href="{{ image.big }}">
@@ -34,33 +35,13 @@ images:
    </a>
 {% endfor %}
 
-<script>
-   $("#gallery").justifiedGallery({
+
+  <script>
+    $("#gallery").justifiedGallery({
       rowHeight : 120,
       margins : 10,
 	  border : 0,
       lastRow : 'justify'
-   });
-</script>
-
-<script>
-$('[data-fancybox]').fancybox({
-   protect : true,
-   loop : true,
-   infobar : false,
-   animationEffect : "zoom-in-out",
-   transitionEffect : false,
-   buttons : [
-      'slideShow',
-      'fullScreen',
-      'thumbs',
-      'close'
-   ],
-   fullScreen : {
-      autoStart : false
-   },
-   slideShow : {
-      autoStart : false
-   }
-});
-</script>
+    });
+  </script>
+</div>

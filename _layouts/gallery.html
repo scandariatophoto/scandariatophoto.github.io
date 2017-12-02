@@ -3,10 +3,37 @@ layout: default
 ---
 
 <div class="post">
+	
   <header class="post-header">
     <h1 class="post-title">Photos <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ page.title }}</h1>
     <h4 class="post-description">{{ page.description }}</h4>
   </header>
+  
 
-  {{ content }}
+    {{ content }}
+
 </div>
+
+
+<script>
+$('[data-fancybox]').fancybox({
+   protect : true,
+   loop : true,
+   infobar : false,
+   animationEffect : "zoom-in-out",
+   transitionEffect : false,
+   buttons : [
+      'slideShow',
+      'fullScreen',
+      'thumbs',
+      'close'
+   ],
+   fullScreen : {
+      autoStart : false
+   },
+   slideShow : {
+      autoStart : false
+   }
+});
+</script>
+
