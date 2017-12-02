@@ -31,6 +31,52 @@
         color: $theme-color;
 		text-decoration: none;
     }
+	padding-left: 10px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: $grey-color-light; /* same as nav-link */
+	padding-left: 10px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+	margin-top: -5px;
+	margin-left: -5px;
+    background-color: $grey-color-light;
+	color: $grey-color-dark;
+    min-width: 100px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+	padding: 0px 15px 0px 15px;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: italic;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: $grey-color-dark;
+	color: $grey-color-light;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /**
