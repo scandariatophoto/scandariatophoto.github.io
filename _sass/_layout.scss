@@ -1,37 +1,36 @@
-
 /**
- * Site header   **********************************************************
- */
-.site-header {
-border-bottom: 0px solid $grey-color-light;
-background-color: $grey-color-dark;
-position:fixed;
-left:0px;
-top:0px;
-height:50px;
-width:100%;
-z-index: 50;
+ * Wrapper
+ */ 
+
+.wrapper {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
-.site-title {
-font-size: 20px;
-line-height: $nav-height;
-letter-spacing: -1px;
-margin-bottom: 0;
-&:hover {
-text-decoration: none;
-color: $theme-color;
-    }
+/**
+ * Site header
+ */
+
+.site-header {
+	background-color: $grey-color-dark;
+	position:fixed;
+	left:0px;
+	top:0px;
+	height:50px;
+	width:100%;
+	z-index: 50;
 }
 
 .site-nav {
-float: right;
-line-height: $nav-height;
-.page-link{
-line-height: $base-line-height;
+	float: right;
+	line-height: $nav-height;
+	.page-link{
+		line-height: $base-line-height;
         // Gaps between nav items, but not on the first one
-&:not(:first-child) {
-margin-left: 10px;
+		&:not(:first-child) {
         }
     }
 }
