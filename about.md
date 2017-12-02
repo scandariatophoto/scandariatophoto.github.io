@@ -36,6 +36,6 @@ permalink: /about/
 <div class="left">
 <p>
 Hi! I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
-<br/>
 </p>
+<br/>
 </div>
