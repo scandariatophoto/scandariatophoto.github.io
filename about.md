@@ -7,9 +7,7 @@ permalink: /about/
 ---
 
 <style>
-* {
-  box-sizing: border-box;
-}
+
 .left {
   float:left;
   width:70%;/*The width is 20%, by default*/
@@ -37,5 +35,17 @@ permalink: /about/
 <p>
 Hi! I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
 </p>
+
+
+<div>
+You can send me an email, or you can visit my 500px page.<br/>
+<div style="padding-top:10px; text-align: center">
+<a href="mailto:you@example.com"><i class="fa fa-envelope-square fa-3x"></i></a>
+&nbsp;
+<a href="https://500px.com/scandariato" target="_blank"><i class="fa fa-500px fa-3x"></i></a>
+</div>
+<div>
+	
 <br/>
+
 </div>
