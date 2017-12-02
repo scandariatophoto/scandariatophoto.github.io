@@ -132,7 +132,7 @@ a {
     */
     &:hover {
         text-decoration: none;
-		color: darken($theme-color, 10%); 
+		color: lighten($theme-color, 10%); 
     }
 }
 
