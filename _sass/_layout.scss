@@ -1,20 +1,14 @@
-/**
- * Wrapper
- */ 
-
-.wrapper {
+.side-margins {
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
-	padding-right: 50px;
-	padding-left: 50px;
 }
 
 /**
  * Site header
  */
 
-.site-header {
+.header-bar {
 	background-color: $grey-color-dark;
 	position:fixed;
 	left:0px;
@@ -24,18 +18,12 @@
 	z-index: 50;
 }
 
-.site-nav {
+.nav-align {
 	float: right;
-	line-height: $nav-height;
-	.page-link{
-		line-height: $base-line-height;
-        // Gaps between nav items, but not on the first one
-		&:not(:first-child) {
-        }
-    }
+	line-height: 55px; /* vertically center nav in header bar */
 }
 
-.site-nav a {
+.nav-link {
 	color: $grey-color-light;
     &:hover {
         color: $theme-color;
@@ -43,84 +31,57 @@
     }
 }
 
-.header-bar{
-    left: 0px;
-    top: 0px;
-    position: relative;
-    font-size: 20px;
-    display: block;
-    opacity: 0.75;
-    width: 100%;
-    text-align: center;
-	padding-top: 10px;
-	padding-bottom: 40px;
-    line-height: 3em;
-    z-index: 25;
-    h1{
-        color: $theme-color;
-        font-size:55px;
-    }
-    h2{
-        font-size:25px;
-    }
-}
+
 
 /**
- * Site footer  **********************************************************
+ * Page content
  */
-.site-footer {
-font-size: 10px;
-text-align: right;
-background-color: $grey-color-dark;
-padding: 2px;
-color: #aaa;
-position:fixed;
-left:0px;
-bottom:0px;
-height:25px;
-width:100%;
-padding-top: 6px;
+
+.top-gap {
+    padding-top: 100px; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
-/**
- * Pagination   **********************************************************
- */
-.pagination{
-max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-text-align: center;
-width: 100%;
-position: fixed;
-bottom: 50px;
-}
-.paginationicon {
-font-size: 50px;
-a {
-color: $theme-color;
-    }
-}
-/**
- * Page content   **********************************************************
- */
-.page-content {
-padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
-}
+
 .page-heading {
-font-size: 20px;
+	font-size: 20px;
 }
+
 .post-list {
-margin: 0px 0;
-list-style: none;
-    > li {
-margin-bottom: $vertical-spacing-unit;
-    }
+	margin: 0px 0;
+	list-style: none;
+	    > li {
+	margin-bottom: $vertical-spacing-unit;
+	    }
 }
+
 .contacticon {
-font-size: 60px;
-display:block;
-margin: 10px;
+	font-size: 60px;
+	display:block;
+	margin: 10px;
 }
+
 .center{
-text-align: center;
+	text-align: center;
 }
+
+
+/**
+ * Site footer 
+ */
+.footer-bar {
+	background-color: $grey-color-dark;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:20px;
+	width:100%;
+	z-index: 50;
+}
+
+.logo-align {
+	float: right;
+	line-height: 30px; /* vertically center logo in footer bar */
+}
+
 /**
  * Posts  **********************************************************
  */
@@ -192,4 +153,21 @@ font-size: 42px;
 .PageNavigation .prev {
   text-align: left;
   float: left;
+}
+
+/**
+ * Pagination   **********************************************************
+ */
+.pagination{
+max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+text-align: center;
+width: 100%;
+position: fixed;
+bottom: 50px;
+}
+.paginationicon {
+font-size: 50px;
+a {
+color: $theme-color;
+    }
 }
