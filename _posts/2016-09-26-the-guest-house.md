@@ -1,0 +1,13 @@
+---
+layout: post
+title: The guest house
+date: '2016-09-26'
+---
+
+<figure>
+<a href="/blogpics/2016-09-26/1-large.jpg" data-fancybox="2016-09-26"><img width="100%" src="/blogpics/2016-09-26/1-small.jpg" alt=""></a>
+<figcaption>85mm, 1/320, f/11, ISO 400. Shot on a full-frame camera.</figcaption>
+</figure>
+
+
+<p>Last weekend we went exploring one of the many lakes near Gothenburg (Mjörn). The country side around there was pretty. When we suddenly drove by a recently mown hay field, I couldn't resist. I hade to stop the car, grab the camera from the booth and take a picture (while my wife was waiting patiently in the car). I was drawn by the peaceful contrast between the yellow field and the faint blue cloudy sky. But then I moved a few meters to the side and I saw this RV, "parked" in the back yard of a farm. It added an extra layer to the scene and made the story. It looked like a cool, spooky place for kids to play. Or the the rustic hideout of a serial killer. I still can't decide :) The half-opend door was quite terryfing anyway...</p>
