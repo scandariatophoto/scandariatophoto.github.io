@@ -2,7 +2,7 @@
 layout: gallery
 
 title: Places
-description: the beauty of Sweden
+description: the beauty of Sweden and the world
 
 permalink: /places/
 
