@@ -1,38 +1,65 @@
-<header class="header-bar">
-
-  <div class="side-margins">
-
-    <div class="nav-align">	  
-
-        <a class="nav-link" href="{{ site.baseurl }}/"><i class="fa fa-bars"></i> blog</a>
-		
-		<div class="dropdown">
-		  <p class="dropbtn"><i class="fa fa-angle-double-down"></i> photos</p>
-		  <div class="dropdown-content">
-			<a href="{{ site.baseurl }}/portfolio">portfolio</a>	
-			<a href="{{ site.baseurl }}/people">people</a>
-			<a href="{{ site.baseurl }}/objects">objects</a>
-			<a href="{{ site.baseurl }}/places">places</a>
-		  </div>
-		</div>
-		
-		<a class="nav-link" href="{{ site.baseurl }}/about"><i class="fa fa-user-circle-o"></i> me</a>
-
+<section class="navigation">
+<div class="side-margins">
+  <div class="nav-container">
+    <div class="brand">
+      <img src="/assets/logo.png" style="height: 30px;">
     </div>
-
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="{{ site.baseurl }}/"><i class="fa fa-bars"></i> blog</a>
+        </li>
+        <li>
+          <a href="#!">photos </a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="{{ site.baseurl }}/portfolio">portfolio</a>
+            </li>
+            <li>
+              <a href="{{ site.baseurl }}/people">people</a>
+            </li>
+            <li>
+              <a href="{{ site.baseurl }}/objects">objects</a>
+            </li>
+            <li>
+              <a href="{{ site.baseurl }}/places">places</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/about"><i class="fa fa-user-circle-o"></i> me</a>
+        </li>
+      </ul>
+    </nav>
   </div>
- 
+</div>
+</section>
+
+
+
 <script>
-	$('.dropbtn').on('click', function () {
-					
-	  if ($('.dropdown-content').css('display') == 'none') {
-	    // your menu is closed, so open it
-		$('.dropdown-content').css('display','block');
-	  } else {
-	    // your menu is opened, so close it
-	    $('.dropdown-content').css('display','none');
-	  }
-	});
+(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
 </script>
-	
-</header>
