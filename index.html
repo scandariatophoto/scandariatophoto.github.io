@@ -25,10 +25,10 @@ layout: default
 <!-- Pagination links -->
 <div class="PageNavigation">
   {% if paginator.previous_page %}
-    <a class="prev" href="{{ paginator.previous_page_path }}">&laquo; Page {{ paginator.page | minus: 1}}</a>
+    <a class="prev" href="{{ paginator.previous_page_path }}"><i class="fa fa-angle-double-left"></i> Page {{ paginator.page | minus: 1}}</a>
   {% endif %}
   {% if paginator.next_page %}
-    <a class="next" href="{{paginator.next_page_path}}">Page {{ paginator.page | plus: 1}} &raquo;</a>
+    <a class="next" href="{{paginator.next_page_path}}">Page {{ paginator.page | plus: 1}} <i class="fa fa-angle-double-right"></i></a>
   {% endif %}
 </div> 
 
