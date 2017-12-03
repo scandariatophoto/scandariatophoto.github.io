@@ -8,7 +8,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Pagination
-paginate: 15
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 # This will require each of these plugins automatically.

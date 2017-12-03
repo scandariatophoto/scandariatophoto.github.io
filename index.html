@@ -21,3 +21,14 @@ layout: default
 
 {% endfor %}
 
+
+<!-- Pagination links -->
+<div class="PageNavigation">
+  {% if paginator.previous_page %}
+    <a class="prev" href="{{ paginator.previous_page_path }}">&laquo; Page {{ paginator.page | minus: 1}}</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="next" href="{{paginator.next_page_path}}">Page {{ paginator.page | plus: 1}} &raquo;</a>
+  {% endif %}
+</div> 
+
