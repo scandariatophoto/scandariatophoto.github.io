@@ -92,23 +92,21 @@ font-size: 42px;
   display: block;
   width: auto;
   overflow: hidden;
-  background: $grey-color-dark;
 }
 
 .PageNavigation a {
   display: block;
-  width: 45%;
   margin: 1em 0;
-  padding-left: 10px;
 }
 
 .PageNavigation .next {
   text-align: right;
   float: right;
-  padding-right: 10px;
+  width: 45%;
 }
 
 .PageNavigation .prev {
   text-align: left;
   float: left;
+  width: 45%;
 }
