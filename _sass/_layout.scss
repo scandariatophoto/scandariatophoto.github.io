@@ -12,7 +12,7 @@
 
 .top-bottom-gap {
     padding-top: 130px; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 /**
@@ -71,20 +71,50 @@
  * Pagination
  */
 
-.page-navigation {
+.post-navigation {
   font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden;
   
-  .next {
+  .post-older {
 	  text-align: right;
 	  float: right;
 	  width: 45%;
   }
-  .prev {
+  .post-newer {
 	  text-align: left;
 	  float: left;
 	  width: 45%;
   }
+}
+
+.trail-current-page {
+    border-radius: 3px;
+    border: solid 1px $grey-color-light;	
+    display: inline-block;
+    padding: 0px 9px;
+	
+	color: $grey-color-dark;
+	background: $grey-color-light;
+	
+	&:hover {
+		color: $grey-color-dark;
+	}
+}
+
+.trail-other-page {
+    border-radius: 3px;
+    border: solid 1px $grey-color-light;
+    display: inline-block;
+    padding: 0px 9px;
+	
+	color: $grey-color-light;
+    background: $grey-color-dark;
+	
+	&:hover {
+		border: solid 1px $brand-color;
+		color: $grey-color-dark;
+	    background: $brand-color;
+	}
 }

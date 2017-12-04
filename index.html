@@ -1,5 +1,7 @@
 ---
 layout: default
+pagination: 
+  enabled: true
 ---
 
 {% for post in paginator.posts %}
@@ -22,13 +24,32 @@ layout: default
 {% endfor %}
 
 
-<!-- Pagination links -->
-<div class="page-navigation">
-  {% if paginator.previous_page %}
-    <a class="prev" href="{{ paginator.previous_page_path }}"><i class="fa fa-angle-double-left"></i> Page {{ paginator.page | minus: 1}}</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a class="next" href="{{paginator.next_page_path}}">Page {{ paginator.page | plus: 1}} <i class="fa fa-angle-double-right"></i></a>
-  {% endif %}
-</div> 
 
+<!-- Pagination trail-->
+
+{% if paginator.page_trail %}
+  <center>
+	  
+  {% if paginator.page != 1 %}
+  <a href="{{ paginator.first_page_path }}" 
+	 class="trail-other-page"><i class="fa fa-angle-double-left"></i></a>
+  {% endif %}
+  
+  {% for trail in paginator.page_trail %}
+  
+  <a href="{{ trail.path | prepend: site.baseurl }}" 
+     {% if page.url == trail.path %}
+	 class= "trail-current-page"
+	 {% else %}
+	 class="trail-other-page"
+	 {% endif %}>{{ trail.num }}</a>
+	 
+  {% endfor %}
+  
+  {% if paginator.page != paginator.total_pages %}
+  <a href="{{ paginator.last_page_path }}" 
+	 class="trail-other-page"><i class="fa fa-angle-double-right"></i></a>
+  {% endif %}
+  
+  </center>
+{% endif %}

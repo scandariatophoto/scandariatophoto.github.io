@@ -13,13 +13,15 @@ layout: default
   </article>  
   
   <br/>
-  <div class="page-navigation">
+  <div class="post-navigation">
     {% if page.next.url %}
-	  <a class="prev" href="{{page.next.url}}"><i class="fa fa-angle-double-left"></i> {{page.next.title}}</a>
+	  <a class="post-newer" href="{{page.next.url}}"><i class="fa fa-angle-double-left"></i> Newer</a>
+	  <!-- {{page.next.title}} -->
     {% endif %}
 	
     {% if page.previous.url %}
-      <a class="next" href="{{page.previous.url}}">{{page.previous.title}} <i class="fa fa-angle-double-right"></i></a>
+      <a class="post-older" href="{{page.previous.url}}">Older <i class="fa fa-angle-double-right"></i></a>
+	  <!-- {{page.previous.title}} -->
     {% endif %}
   </div> 
 
