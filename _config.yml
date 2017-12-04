@@ -1,22 +1,15 @@
 # Site settings
 baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
-title: Riccardo Scandariato
+url:      # the base hostname & protocol for your site
+title:       Riccardo Scandariato
 description: All about my photo adventures...
 
 # Build settings
 markdown: kramdown
 
 # Pagination
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/blog/page:num/'
-  sort_reverse: true
-  trail: 
-    before: 2 # The number of links before the current page
-    after: 2  # The number of links after the current page
+paginate:      5
+paginate_path: "/blog/page:num/"
 
-# This will require each of these plugins automatically.
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
