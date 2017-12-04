@@ -4,27 +4,40 @@
 @charset "utf-8";
 
 
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #000;
-$brand-color:      #2a7ae2;
+/** Colors **********************************************/
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-light: lighten($grey-color, 23%);
+$grey-color-dark:  darken($grey-color, 38%);
+
+$background-color: #000;
+
+$text-color:     $grey-color-light;
+
+$brand-color:       rgba(217,162,31,1);
+$theme-color:       $brand-color;
+$theme-color-light: lighten($theme-color, 10%);
+
+
+/** Font **********************************************/
+
+$base-font-family:              Helvetica, sans-serif;
+$base-font-size:                15px;
+$base-line-height:              1.6em;
+
+$smaller-font-size:             13px;
+$bigger-font-size:              16px;
+
+$brand-font-family:             'Pacifico';
+$brand-font-size:               38px;
+
+/** Misc **********************************************/
+
+$horizontal-spacing-unit:       50px;
+$vertical-spacing-unit:         40px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Using media queries with like this:
 // @include media-query($palm) {

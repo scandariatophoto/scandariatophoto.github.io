@@ -24,13 +24,12 @@
 }
 
 .post-title {
-	font-size: 38px;
-	letter-spacing: -1px;
+	font-family: $brand-font-family;
+	font-size: $brand-font-size;
 	line-height: 1;
 	@include media-query($on-laptop) {
 		font-size: 36px;
 	}
-	font-family: 'Pacifico';
 }
 
 .post-description {
@@ -57,20 +56,19 @@
 			font-size: 18px;
 	    }
 	}
-	color: $grey-color-light;
+
 	letter-spacing: 0.5px;
-	font-size: 15px;
 }
 
 .post-meta {
-  font-size: $small-font-size;
+  font-size: $base-font-size;
   color: $grey-color;
   margin-bottom: 0px; 
   padding-top: 15px;
 }
 
 /**
- * Posts
+ * Pagination
  */
 
 .page-navigation {
