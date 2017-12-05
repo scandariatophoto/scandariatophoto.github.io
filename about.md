@@ -41,6 +41,6 @@ permalink: /about/
 		<a href="mailto:you@example.com"><i class="fa fa-envelope-square fa-3x"></i></a>
 		&nbsp;
 		<a href="https://500px.com/scandariato" target="_blank"><i class="fa fa-500px fa-3x"></i></a>
-		<br/><br/>
+		<br/><br/><br/>
 	</div>
 </div>
