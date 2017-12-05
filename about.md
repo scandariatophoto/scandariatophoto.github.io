@@ -21,31 +21,26 @@ permalink: /about/
 
 /*Use a media query to add a break point at 800px:*/
 @media (max-width:800px) {
-  .left, .main, .right {
+  .left, .right {
     width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
   }
 }
 </style>
 
 <div class="right">
-<img src="/assets/me.jpg" width="100%"/>
+	<img src="/assets/me.jpg" width="100%"/>
 </div>
 
 <div class="left">
-<p>
-Hi! I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
-</p>
-
-
-<div>
-You can send me an email, or you can visit my 500px page.<br/>
-<div style="padding-top:10px; text-align: center">
-<a href="mailto:you@example.com"><i class="fa fa-envelope-square fa-3x"></i></a>
-&nbsp;
-<a href="https://500px.com/scandariato" target="_blank"><i class="fa fa-500px fa-3x"></i></a>
-</div>
-<div>
+	<p>
+	Hi! I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
+	</p>
 	
-<br/>
-
+	You can send me an email, or you can visit my 500px page.<br/>
+	<div style="padding-top:10px; text-align: center">
+		<a href="mailto:you@example.com"><i class="fa fa-envelope-square fa-3x"></i></a>
+		&nbsp;
+		<a href="https://500px.com/scandariato" target="_blank"><i class="fa fa-500px fa-3x"></i></a>
+		<br/><br/>
+	</div>
 </div>
