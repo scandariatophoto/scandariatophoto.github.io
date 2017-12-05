@@ -1,7 +1,5 @@
 ---
 layout: default
-pagination: 
-  enabled: true
 ---
 
 {% for post in paginator.posts %}
@@ -23,33 +21,73 @@ pagination:
 
 {% endfor %}
 
+<!-- Messy code for pagination trail -->
 
+{% if paginator.total_pages > 1 %}
 
-<!-- Pagination trail-->
+	{% assign page = paginator.page %}
+	{% assign total_pages = paginator.total_pages %}
 
-{% if paginator.page_trail %}
+	{% assign lo = page | minus: 2 %}
+	{% assign hi = page | plus:  2 %}
+
+	{% if lo == 0 %}
+	  {% assign lo = 1 %}
+	  {% assign hi = hi | plus: 1 %}
+	  {% if hi > total_pages %}
+	    {% assign hi = total_pages %}
+	  {% endif %}
+	{% elsif lo == -1 %}
+	  {% assign lo = 1 %}
+	  {% assign hi = hi | plus: 2 %}
+	  {% if hi > total_pages %}
+	    {% assign hi = total_pages %}
+	  {% endif %}
+	{% endif %}
+
+	{% assign tmp1 = total_pages | plus: 1 %}
+	{% assign tmp2 = total_pages | plus: 2 %}
+	{% if hi == tmp1 %}
+	  {% assign hi = total_pages %}
+	  {% assign lo = lo | minus: 1 %}
+	  {% if lo < 1 %}
+	    {% assign lo = 1 %}
+	  {% endif %}
+	{% elsif hi == tmp2 %}
+	  {% assign hi = total_pages %}
+	  {% assign lo = lo | minus: 2 %}
+	  {% if lo < 1 %}
+	    {% assign lo = 1 %}
+	  {% endif %}
+	{% endif %}
+	
   <center>
 	  
-  {% if paginator.page != 1 %}
-  <a href="{{ paginator.first_page_path }}" 
+  {% if paginator.page > 3 %}
+  <a href="/" 
 	 class="trail-other-page"><i class="fa fa-angle-double-left"></i></a>
   {% endif %}
   
-  {% for trail in paginator.page_trail %}
+  {% for i in (lo..hi) %}
   
-  <a href="{{ trail.path | prepend: site.baseurl }}" 
-     {% if page.url == trail.path %}
-	 class= "trail-current-page"
-	 {% else %}
-	 class="trail-other-page"
-	 {% endif %}>{{ trail.num }}</a>
+	  {% if paginator.page == i %}
+		  <a href="" class="trail-current-page">{{ i }}</a>		 
+	  {% else %}
+	      {% if i == 1 %}
+		    <a href="/" class="trail-other-page">{{ i }}</a>
+		  {% else %}
+		    <a href="/blog/page{{i}}" class="trail-other-page">{{ i }}</a>
+		  {% endif %}
+	  {% endif %}
 	 
   {% endfor %}
   
-  {% if paginator.page != paginator.total_pages %}
-  <a href="{{ paginator.last_page_path }}" 
+  {% assign tmp = paginator.total_pages | minus: 2 %}
+  {% if paginator.page  < tmp %}
+  <a href="/blog/page{{ paginator.total_pages }}" 
 	 class="trail-other-page"><i class="fa fa-angle-double-right"></i></a>
   {% endif %}
   
   </center>
+
 {% endif %}
