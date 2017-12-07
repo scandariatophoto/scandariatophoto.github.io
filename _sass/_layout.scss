@@ -113,8 +113,8 @@
     background: $grey-color-dark;
 	
 	&:hover {
-		border: solid 1px $brand-color;
+		border: solid 1px $theme-color;
 		color: $grey-color-dark;
-	    background: $brand-color;
+	    background: $theme-color;
 	}
 }
