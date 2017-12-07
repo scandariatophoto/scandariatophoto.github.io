@@ -10,6 +10,16 @@ dl, dd, ol, ul, figure {
 
 /************************************************************/
 
+.fancybox-bg {
+    background: $grey-color-dark;
+}
+
+.fancybox-is-open .fancybox-bg {
+    opacity: 1;
+}
+
+/************************************************************/
+
 /**
  * Basic styling
  */

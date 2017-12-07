@@ -12,6 +12,29 @@
        {{ content }}
        </div>
     </div>
+	
+	<script>
+	$('[data-fancybox]').fancybox({
+	   protect : true,
+	   loop : true,
+	   infobar : false,
+	   animationEffect : "zoom-in-out",
+	   transitionEffect : false,
+	   buttons : [
+	      'slideShow',
+	      'fullScreen',
+	      'thumbs',
+	      'close'
+	   ],
+	   fullScreen : {
+	      autoStart : false
+	   },
+	   slideShow : {
+	      autoStart : false
+	   },
+	   preload : true
+	});
+	</script>
 
   </body>
 
