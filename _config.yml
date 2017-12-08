@@ -7,6 +7,8 @@ description: All about my photo adventures...
 # Build settings
 markdown: kramdown
 
+excerpt_separator: "<!--break-->"
+
 # Pagination
 paginate:      5
 paginate_path: "/blog/page:num/"

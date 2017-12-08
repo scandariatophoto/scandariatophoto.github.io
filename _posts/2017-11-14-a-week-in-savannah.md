@@ -11,14 +11,16 @@ date: '2017-11-14'
 
 
 <p>Last week I flew to the US for work. I went to a city I've never been before: <a target="_blank" href="https://www.architecturaldigest.com/story/savannah-georgia-travel-guide-article">Savannah, Georgia</a>. With it's historic and well-preserved city centre (<a target="_blank" href="http://gosouthsavannah.com/historic-district-and-city/historic-district-and-city.html">Historic District</a>), a very warm climate (25 Celsius in November) and hospitable locals, it deserves well the title of "<strong>hostess city of the south</strong>". There are plenty of brickwork buildings and the most affluent houses are in Regency and Greek Revival styles (thank you Wikipedia!). Most residential houses have two stories, with a flight of stairs going from the sidewalk to the first floor. The neighbourhoods feel relaxed and peaceful, with dog owners strolling around and the occasional jogger passing by.</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-11-14/2-large.jpg" data-fancybox="2017-11-14"><img width="100%" src="/blogpics/2017-11-14/2-small.jpg" alt=""></a>
 <figcaption>85mm on full-frame. 1/200 sec, f/4, ISO 1100</figcaption>
 </figure>
-
-
-
+  
+  
+  
   
 <figure>
 <a href="/blogpics/2017-11-14/3-large.jpg" data-fancybox="2017-11-14"><img width="100%" src="/blogpics/2017-11-14/3-small.jpg" alt=""></a>

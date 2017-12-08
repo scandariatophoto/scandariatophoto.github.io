@@ -10,7 +10,9 @@ date: '2017-08-31'
 </figure>
 
 
-<p>My wife and I spent a long weekend in Hamburg. A couple of friends from Hannover joined us and it was good fun. What I liked in particular about Hamburg is its mix of modern buildings and old brickwork constructions. And the water. It's river and canals everywhere. A great place to visit. The city has the third largest harbour of Europe. Pro tip: book a <a target="_blank" href="http://jasper.de/touren/hafentour.html">visit of the harbour</a> with a bus. The tour is given in German only, but you will have the unique chance of entering the container harbour and watch the gigantic cranes load a super container ship. Impressive.</p>
+<p>My wife and I spent a long weekend in Hamburg. A couple of friends from Hannover joined us and it was good fun. What I liked in particular about Hamburg is its mix of modern buildings and old brickwork constructions. And the water. It's river and canals everywhere. A great place to visit. The city has the third largest harbor of Europe. Pro tip: book a <a target="_blank" href="http://jasper.de/touren/hafentour.html">visit of the harbor</a> with a bus. The tour is given in German only, but you will have the unique chance of entering the container harbor and watch the gigantic cranes load a super container ship. Impressive.</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-08-31/2-large.jpg" data-fancybox="2017-08-31"><img width="100%" src="/blogpics/2017-08-31/2-small.jpg" alt=""></a>
@@ -27,7 +29,7 @@ date: '2017-08-31'
 </figure>
 
 
-<p>The nightlife revolves around the Reeperbahn, the read-light district (hey, pretty normal, it's a harbour city!) which now also hosts many bars and clubs. It's also a popular place to go to with your friends to celebrate your bachelor/bachelorette party.</p>
+<p>The nightlife revolves around the Reeperbahn, the read-light district (hey, pretty normal, it's a harbor city!) which now also hosts many bars and clubs. It's also a popular place to go to with your friends to celebrate your bachelor/bachelorette party.</p>
   
 <figure>
 <a href="/blogpics/2017-08-31/4-large.jpg" data-fancybox="2017-08-31"><img width="100%" src="/blogpics/2017-08-31/4-small.jpg" alt=""></a>
@@ -55,7 +57,7 @@ date: '2017-08-31'
   
 <figure>
 <a href="/blogpics/2017-08-31/7-large.jpg" data-fancybox="2017-08-31"><img width="100%" src="/blogpics/2017-08-31/7-small.jpg" alt=""></a>
-<figcaption>View of the Elbe river and the Burchardkai harbour. 24mm on full-frame. 1/200 sec, f/5.6, ISO 100</figcaption>
+<figcaption>View of the Elbe river and the Burchardkai harbor. 24mm on full-frame. 1/200 sec, f/5.6, ISO 100</figcaption>
 </figure>
 
 

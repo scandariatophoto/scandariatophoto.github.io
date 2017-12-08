@@ -11,6 +11,8 @@ date: '2016-11-14'
 
 
 <p>While the whole world seemed to be in a buzz due to the after-math of the recent US election, this weekend I went for a short hike with a couple of colleagues (they are pictured below, together with their evil twins...). We went to the <a target="_blank" href="https://sv.wikipedia.org/wiki/Bokedalens_naturreservat">Bokedalens naturreservat</a>, a quiet and green area by the <a target="_blank" href="https://www.google.com/maps/place/Jonsered,+Sweden/@57.7543473,12.1286357,12.03z/data=!4m5!3m4!1s0x464ff7a614f9cfaf:0x2601907925c7e7c2!8m2!3d57.7455944!4d12.1739021">Aspen lake</a>. It's only a 15 min drive from Gothenburg.</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2016-11-14/2-large.jpg" data-fancybox="2016-11-14"><img width="100%" src="/blogpics/2016-11-14/2-small.jpg" alt=""></a>

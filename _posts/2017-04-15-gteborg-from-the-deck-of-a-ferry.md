@@ -12,6 +12,8 @@ date: '2017-04-15'
 
 <p>We recently embarked on a Stena Line ferry traveling from Gothenburg to Kiel. The ferry is as tall as a building and the view from its deck is pretty spectacular. I took the chance of shooting a couple of panoramas from such a vantage point to capture the feeling of dominance over the city that you get from there.</p>
 <p>This is the view towards the open sea. The ferry goes under the big bridge and it feels like you could almost touch it. Pretty cool (also temperature-wise).:</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-04-15/2-large.jpg" data-fancybox="2017-04-15"><img width="100%" src="/blogpics/2017-04-15/2-small.jpg" alt=""></a>

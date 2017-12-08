@@ -11,6 +11,7 @@ date: '2017-01-01'
 <figcaption>According the guitar. 24mm, 1/40, f/2.8, ISO 2500. Shot on a full-frame camera.</figcaption>
 </figure>
 
+<!--break-->
 
 <p>They even sang in German for my wife. Pure cuteness! Of course, when I say "family" I mean the <em>extended</em> family, which also includes this adorable Boston-terrier-come-Tasmanian-devil, named <strong>Astrid</strong> ;)</p>
   

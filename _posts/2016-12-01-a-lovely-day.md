@@ -12,7 +12,10 @@ date: '2016-12-01'
 
 <p>To close the week-long celebrations for my birthday (yes, it <em>is</em> that important) my photo assistant (ehm... wife) took me to the <a target="_blank" href="https://www.universeum.se/en/">Universeum</a> in Gothenburg. It's a strange mix of tropical jungle, plus aquarium, plus science museum for kids (like me).</p>
 <p>It's next to the Lieseberg amusement park and has a ginormous, two-story tall brontosaurus to mark the entrance.</p>
-  
+
+<!--break-->
+
+
 <figure>
 <a href="/blogpics/2016-12-01/2-large.jpg" data-fancybox="2016-12-01"><img width="100%" src="/blogpics/2016-12-01/2-small.jpg" alt=""></a>
 <figcaption>22mm, 1/80, f/5.6, ISO 320. Shot on a full-frame camera.</figcaption>

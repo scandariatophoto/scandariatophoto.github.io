@@ -12,6 +12,8 @@ date: '2017-03-22'
 
 <p>This week, Joshua Radin was in town and played at <a target="_blank" href="http://pustervik.nu">Pustervik</a>. I was at his concert in Stockholm a couple of years back and it was great to watch him live again! He played a lot of old songs this time, to the great delight of my wife. She is a fan from the very beginning... I'm more of a late convert, I confess :)</p>
 <p>We were both very tired from work (the gig was on a Tuesday), but we left the concert with our hearts and minds in a very good place. Thank you Joshua!</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-03-22/2-large.jpg" data-fancybox="2017-03-22"><img width="100%" src="/blogpics/2017-03-22/2-small.jpg" alt=""></a>

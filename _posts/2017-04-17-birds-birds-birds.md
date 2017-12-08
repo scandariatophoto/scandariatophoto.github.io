@@ -11,6 +11,8 @@ date: '2017-04-17'
 
 
 <p>A friend suggested to go to Hornborgasjön, a lake located about 2h away from Gothenburg. He mentioned that it's a known spot for migrating cranes. I never shot birds before and don't have the right equipment. My longest lens is an 85mm, definitely not enough for the task. But he let me borrow his professional 70-200mm with a 2x extender and suggested the right camera settings. It was my first time with a long telephoto lens... and I loved it. The world is quite different through a 400mm glass! But capturing the flying birds is so darn difficult. These are some pictures I managed to keep in focus (by sheer luck, mostly).</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-04-17/2-large.jpg" data-fancybox="2017-04-17"><img width="100%" src="/blogpics/2017-04-17/2-small.jpg" alt=""></a>

@@ -11,6 +11,8 @@ date: '2017-02-04'
 
 
 <p>I spent a weekend in <strong>Copenhagen</strong>. It was a lovely <strong>family</strong> time and a lot of walking through the city streets. I took only one lens with me (a prime, of course) and I focussed more on interacting with the friendly people that were with me, than photographing strangers and other things. But a city often gives you plenty of photo opportunities and it is sometimes hard to resist...</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-02-04/2-large.jpg" data-fancybox="2017-02-04"><img width="100%" src="/blogpics/2017-02-04/2-small.jpg" alt=""></a>

@@ -11,6 +11,8 @@ date: '2017-10-31'
 
 
 <p>A sunny autumn afternoon means I feel like packing my gear and explore some location in search of a landscape shot. This time I went on my own and drove a short distance to the lake Delsjön (10 min from the city). It's quite late in the season and most of the leaves have fallen already. Still, interesting composition can be found... just crop out the tree tops... or include pine trees ;)</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-10-31/2-large.jpg" data-fancybox="2017-10-31"><img width="100%" src="/blogpics/2017-10-31/2-small.jpg" alt=""></a>

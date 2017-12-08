@@ -11,6 +11,8 @@ date: '2017-10-20'
 
 
 <p>The <a target="_blank" href="https://en.wikipedia.org/wiki/Frederiksborg_Castle">Frederiksborg Palace</a> is located 40 min north of Copenaghen, or 20 min from the ferry station of Helsinggør, if you arrive from Sweden. It was built in the 17th century as residence for Christian IV king of Denmark. It sits at the edge of a pond and it's surrounded by gardens and a park. </p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-10-20/2-large.jpg" data-fancybox="2017-10-20"><img width="100%" src="/blogpics/2017-10-20/2-small.jpg" alt=""></a>

@@ -11,6 +11,8 @@ date: '2017-10-15'
 
 
 <p>The summer holiday began with a lovely stay at the Baltic Sea with my wife and her family. The German coast near to the Danish border offers a great combination of sandy beaches, dunes and great bike trails through the lush country side.</p>
+
+<!--break-->
   
 <figure>
 <a href="/blogpics/2017-10-15/2-large.jpg" data-fancybox="2017-10-15"><img width="100%" src="/blogpics/2017-10-15/2-small.jpg" alt=""></a>

@@ -11,6 +11,7 @@ date: '2017-11-23'
 <figcaption>My father. 50mm on full frame. 1/160 sec, f/8, ISO 100. Shoot-through umbrella.</figcaption>
 </figure>
 
+<!--break-->
 
 <p>And this is click number 2, which required some post production to darken the background.</p>
   

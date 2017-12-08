@@ -12,7 +12,10 @@ date: '2017-05-03'
 
 <p>This weekend, the students of the Chalmers university organized the traditional Cortege procession. To get an idea, imagine a carnival parade with plenty of humour and fun. Quite remarkably, it has been <a target="_blank" href="https://en.wikipedia.org/wiki/The_Cort%C3%A8ge">organized every year since 1909</a>. The students and alumni get together to celebrate their 'alma mater' and all wear the typical student hat (il looks a bit like the cap of a sea captain).</p>
 <p>I took advantage of the relaxed and fun atmosphere to ask many participants to pose for my camera and they have been great sports.</p>
-  
+
+<!--break-->
+
+
 <figure>
 <a href="/blogpics/2017-05-03/2-large.jpg" data-fancybox="2017-05-03"><img width="100%" src="/blogpics/2017-05-03/2-small.jpg" alt=""></a>
 <figcaption>50mm on full-frame. 1/250, f/5.6, ISO 100</figcaption>
