@@ -38,9 +38,9 @@ permalink: /about/
 	
 	You can send me an email, or you can visit my 500px page.<br/>
 	<div style="padding-top:10px; text-align: center">
-		<a href="mailto:you@example.com"><i class="fa fa-envelope-square fa-3x"></i></a>
+		<a href="mailto:you@example.com"><i class="fas fa-envelope-square fa-3x"></i></a>
 		&nbsp;
-		<a href="https://500px.com/scandariato" target="_blank"><i class="fa fa-500px fa-3x"></i></a>
+		<a href="https://500px.com/scandariato" target="_blank"><i class="fab fa-500px fa-3x"></i></a>
 		<br/><br/><br/>
 	</div>
 </div>
