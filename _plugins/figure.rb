@@ -15,7 +15,7 @@ module Jekyll
       output += "\" alt=\"\"></a>"
       output += "<figcaption>"
       output += super(context)
-      output += "</figcaption>"
+      output += "AAA</figcaption>"
       output += "</figure>"
       
       Liquid::Template.parse(output).render(context)
