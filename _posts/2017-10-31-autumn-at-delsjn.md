@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Autumn at Delsjön
-date: '2017-10-31'
 ---
 
 <figure>

@@ -9,6 +9,14 @@ markdown: kramdown
 
 excerpt_separator: "<!--break-->"
 
+# Custom variables
+galleries_path: "/assets/galleries"
+blogpics_path:  "/blogpics"
+
+collections:
+  galleries:
+    output: true
+
 # Pagination
 paginate:      5
 paginate_path: "/blog/page:num/"

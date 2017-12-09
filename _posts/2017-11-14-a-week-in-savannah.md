@@ -1,7 +1,6 @@
 ---
 layout: post
 title: A week in Savannah
-date: '2017-11-14'
 ---
 
 <figure>

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Autumn at Surtesjön
-date: '2017-10-26'
 ---
 
 <figure>
