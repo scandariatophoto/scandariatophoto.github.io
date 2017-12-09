@@ -9,14 +9,13 @@ layout: default
     <h4 class="post-meta">{{ page.description }}</h4>
   </header>
 
-
   <div id="gallery">
 	  
-  {% for image in page.images %}
-     <a data-fancybox="slides" href="{{ site.galleries_path }}/{{ page.folder }}/{{ image.large }}">
+    {% for image in page.images %}
+      <a data-fancybox="slides" href="{{ site.galleries_path }}/{{ page.folder }}/{{ image.large }}">
         <img src="{{ site.galleries_path }}/{{ page.folder }}/{{ image.small }}">
-     </a>
-  {% endfor %}
+      </a>
+    {% endfor %}
 
     <script>
       $("#gallery").justifiedGallery({
