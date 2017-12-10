@@ -32,9 +32,11 @@
 	}
 }
 
-.post-description {
-	padding-top: 15px;
-	color: $grey-color-light;
+.post-subtitle {
+  font-size: $base-font-size;
+  color: $grey-color;
+  margin-bottom: 0px; 
+  padding-top: 15px;
 }
 
 .post-content {
@@ -58,13 +60,6 @@
 	}
 
 	letter-spacing: 0.5px;
-}
-
-.post-meta {
-  font-size: $base-font-size;
-  color: $grey-color;
-  margin-bottom: 0px; 
-  padding-top: 15px;
 }
 
 /**

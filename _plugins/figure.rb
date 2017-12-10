@@ -1,3 +1,8 @@
+# Usage:
+#    {% figure small.jpg large.jpg %}
+#    Caption goes here
+#    {% endfigure %}
+
 module Jekyll
   class FigureBlock < Liquid::Block
     def initialize(tag_name, arg, tokens)
@@ -15,7 +20,7 @@ module Jekyll
       output += "\" alt=\"\"></a>"
       output += "<figcaption>"
       output += super(context)
-      output += "AAA</figcaption>"
+      output += "</figcaption>"
       output += "</figure>"
       
       Liquid::Template.parse(output).render(context)

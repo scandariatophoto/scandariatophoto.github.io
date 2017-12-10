@@ -1,7 +1,8 @@
 ---
 layout: page
 
-title: About
+title: About me
+description: and how to get in contact
 
 permalink: /about/
 ---

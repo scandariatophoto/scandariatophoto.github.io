@@ -6,7 +6,7 @@ layout: default
 	
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <h4 class="post-meta">{{ page.description }}</h4>
+    <h4 class="post-subtitle">{{ page.description }}</h4>
   </header>
 
   <div id="gallery">
@@ -16,15 +16,6 @@ layout: default
         <img src="{{ site.galleries_path }}/{{ page.folder }}/{{ image.small }}">
       </a>
     {% endfor %}
-
-    <script>
-      $("#gallery").justifiedGallery({
-        rowHeight : 120,
-        margins : 10,
-  	  border : 0,
-        lastRow : 'justify'
-      });
-    </script>
 	  
   </div>
   
