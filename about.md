@@ -37,11 +37,9 @@ permalink: /about/
 	Hi! I'm an Italian photographer living in the beautiful city of <b><i>Gothenburg</i></b> in Sweden. My favorite subjects are landscapes and cityscapes but I also enjoy travel and street photography.
 	</p>
 	
-	You can send me an email, or you can visit my 500px page.<br/>
+	To know more, you can send me an email...<br/>
 	<div style="padding-top:10px; text-align: center">
 		<a href="mailto:you@example.com"><i class="fas fa-envelope-square fa-3x"></i></a>
-		&nbsp;
-		<a href="https://500px.com/scandariato" target="_blank"><i class="fab fa-500px fa-3x"></i></a>
 		<br/><br/><br/>
 	</div>
 </div>
