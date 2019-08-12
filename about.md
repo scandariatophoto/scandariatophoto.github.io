@@ -29,7 +29,7 @@ permalink: /about/
 </style>
 
 <div class="right">
-	<img src="/assets/me.jpg" width="100%"/>
+	<img src="/assets/me02.jpg" width="100%"/>
 </div>
 
 <div class="left">
@@ -39,7 +39,7 @@ permalink: /about/
 	
 	To know more, you can send me an email...<br/>
 	<div style="padding-top:10px; text-align: center">
-		<a href="mailto:you@example.com"><i class="fas fa-envelope-square fa-3x"></i></a>
+		<a href="mailto:riccardo.scandariato@gmail.com"><i class="fas fa-envelope-square fa-3x"></i></a>
 		<br/><br/><br/>
 	</div>
 </div>
