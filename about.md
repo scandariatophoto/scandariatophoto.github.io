@@ -29,7 +29,7 @@ permalink: /about/
 </style>
 
 <div class="right">
-	<img src="/assets/me.jpg" width="100%"/>
+	<img src="/assets/me.jpg" width="100%" alt="Me"/>
 </div>
 
 <div class="left">
