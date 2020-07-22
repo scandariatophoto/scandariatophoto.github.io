@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+	  
+    {% include header.html %}
+
+    <div class="side-margins">
+       <div class="top-bottom-gap">
+       {{ content }}
+       </div>
+    </div>
+	
+    <script>
+      $("#gallery").justifiedGallery({
+        rowHeight : 120,
+        margins : 10,
+  	    border : 0,
+        lastRow : 'justify'
+      });
+    </script>
+	
+	<script>
+	$('[data-fancybox]').fancybox({
+	   protect : true,
+	   loop : true,
+	   infobar : false,
+	   animationEffect : "zoom-in-out",
+	   transitionEffect : false,
+	   buttons : [
+	      'slideShow',
+	      'fullScreen',
+	      'thumbs',
+	      'close'
+	   ],
+	   fullScreen : {
+	      autoStart : false
+	   },
+	   slideShow : {
+	      autoStart : false
+	   },
+	   preload : true
+	});
+	</script>
+
+  </body>
+
+</html>

@@ -1,0 +1,115 @@
+/**
+ * Default page
+ */
+
+.side-margins {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.top-bottom-gap {
+    padding-top: 130px; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+	padding-bottom: 50px;
+}
+
+/**
+ * Posts
+ */
+
+.post-header {
+	margin-bottom: $vertical-spacing-unit;
+}
+
+.post-title {
+	font-family: $brand-font-family;
+	font-size: $brand-font-size;
+	line-height: 1;
+	@include media-query($on-laptop) {
+		font-size: 36px;
+	}
+}
+
+.post-subtitle {
+  font-size: $base-font-size;
+  color: $grey-color;
+  margin-bottom: 0px; 
+  padding-top: 15px;
+}
+
+.post-content {
+	h2 {
+		font-size: 42px;
+		@include media-query($on-laptop) {
+			font-size: 28px;
+	    }
+	}
+	h3 {
+		font-size: 30px;
+		@include media-query($on-laptop) {
+			font-size: 22px;
+	    }
+	}
+	h4 {
+		font-size: 20px;
+		@include media-query($on-laptop) {
+			font-size: 18px;
+	    }
+	}
+
+	letter-spacing: 0.5px;
+}
+
+/**
+ * Pagination
+ */
+
+.post-navigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  
+  .post-older {
+	  text-align: right;
+	  float: right;
+	  width: 45%;
+  }
+  .post-newer {
+	  text-align: left;
+	  float: left;
+	  width: 45%;
+  }
+}
+
+.trail-current-page {
+    border-radius: 3px;
+    border: solid 1px $grey-color-light;	
+    display: inline-block;
+    padding: 0px 9px;
+	
+	color: $grey-color-dark;
+	background: $grey-color-light;
+	
+	&:hover {
+		color: $grey-color-dark;
+	}
+}
+
+.trail-other-page {
+    border-radius: 3px;
+    border: solid 1px $grey-color-light;
+    display: inline-block;
+    padding: 0px 9px;
+	
+	color: $grey-color-light;
+    background: $grey-color-dark;
+	
+	&:hover {
+		border: solid 1px $theme-color;
+		color: $grey-color-dark;
+	    background: $theme-color;
+	}
+}
